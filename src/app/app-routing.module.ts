@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { SwiperTestPageComponent } from './ui/pages/swiper-test-page/swiper-test-page.component';
 
-const routes: Routes = [];
+export const routes: Routes = [
+  {
+    path: 'swiper',
+    component: SwiperTestPageComponent,
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

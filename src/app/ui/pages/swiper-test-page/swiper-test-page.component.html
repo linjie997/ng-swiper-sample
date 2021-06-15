@@ -1,0 +1,11 @@
+<swiper class="swiper-container" [config]="config">
+
+  <ng-container *ngFor="let item of items">
+    <ng-template swiperSlide>
+      <div class="item">
+        {{item}}
+      </div>
+    </ng-template>
+  </ng-container>
+
+</swiper>
